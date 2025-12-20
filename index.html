@@ -9,8 +9,45 @@
 </head>
 
 <body>
-   <div class=" bg-amber-400 h-25 w-34">
-    <h1>Hello World</h1>
-   </div>
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tailwind Navbar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-950">
+
+  <nav class="bg-white shadow-md px-6 py-1">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+
+      
+      <div class="text-xl font-bold text-blue-600">
+       PW SKILLS
+      </div>
+
+      
+      <ul class="hidden md:flex space-x-5 text-gray-700 font-medium">
+        <li><a href="#" class="hover:text-blue-600">Home</a></li>
+        <li><a href="#" class="hover:text-blue-600">About Us</a></li>
+        <li><a href="#" class="hover:text-blue-600">Contact Us</a></li>
+      </ul>
+
+      
+      <div>
+        <button class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 hidden md:inline-block lg:inline-block">
+          Login
+        </button>
+        <div class="md:hidden lg:hidden text-3xl font-bold text-blue-500 hover:text-blue-700">
+            <a href="#">&#8801;</a>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+</body>
+</html>
+
 </body>
 </html>
